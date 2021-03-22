@@ -12,3 +12,8 @@ computation_3=$(( c+a/b ))
 echo $computation_3
 computation_4=$(( a%b+c ))
 echo $computation_4
+
+declare -A result
+
+result=( [1]=$computation_1 [2]=$computation_2 [3]=$computation_3 [4]=$computation_4 )
+echo ${result[@]}
