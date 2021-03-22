@@ -8,3 +8,5 @@ computation_1=$(( a+b+c ))
 echo $computation_1
 computation_2=$(( a*b+c ))
 echo $computation_2
+computation_3=$(( c+a/b ))
+echo $computation_3
