@@ -10,3 +10,5 @@ computation_2=$(( a*b+c ))
 echo $computation_2
 computation_3=$(( c+a/b ))
 echo $computation_3
+computation_4=$(( a%b+c ))
+echo $computation_4
