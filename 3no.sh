@@ -17,3 +17,8 @@ declare -A result
 
 result=( [1]=$computation_1 [2]=$computation_2 [3]=$computation_3 [4]=$computation_4 )
 echo ${result[@]}
+
+declare -a array
+
+array=( ${result[1]} ${result[2]} ${result[3]} ${result[4]} )
+echo ${array[@]}
